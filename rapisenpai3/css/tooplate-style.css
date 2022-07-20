@@ -1,0 +1,372 @@
+/* 
+
+Template 2093 Flight
+
+http://www.tooplate.com/view/2093-flight
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', arial, sans-serif;
+}
+
+body {
+	overflow-x: hidden;
+	background-color: #fff;
+	min-width: 500px;
+	height: 100%;
+}
+
+ul {
+	list-style: none;
+	margin: 0px;
+}
+
+p {
+	font-size: 13px;
+	line-height: 24px;
+}.logo img{
+	max-width: 100%;
+	width: 200px;
+	height: auto;
+}
+
+
+/* contact us now */
+.page-direction-button a {
+	display: inline-block;
+	line-height: 60px;
+	width: 270px;
+	height: 60px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	background-color: #ffae5d;
+	font-size: 18px;
+	font-weight: 700;
+	color: #121212;
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: 0px;
+}
+
+.page-direction-button a i {
+	margin-right: 5px;
+	font-size: 20px;
+}
+
+
+
+.banner .social-links {
+  list-style: none;
+  margin-top: 0px;
+  padding-right: 100px;
+}
+
+.banner .social-links li{
+  display: block;
+  text-align: center;
+  margin: 10px 0px;
+  transition: all 0.5s;
+}
+
+.banner .social-links a {
+  display:block;
+  transition: all 0.5s;
+  text-align: left;
+  text-decoration:none;
+  text-transform:uppercase;
+  letter-spacing: 0.5px;
+  color:#fff;
+  font-size: 17px;
+  font-weight: 400;
+  display: inline-block;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  padding-left: 20px;
+  background-color: rgba(250, 250, 250, 0.1);
+  transition: all 0.5s;
+}
+
+.banner .social-links a em {
+	font-style: normal;
+	font-weight: 700;
+}
+
+.banner .social-links a i {
+	float: right;
+	background-color: rgba(250, 250, 250, 0.2);
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 36px;
+	transition: all 0.5s;
+}
+
+/* facebook */
+.banner .social-links li:hover .fb{
+	background-color: rgba(101, 142, 255, 0.5);
+}
+  
+.banner .social-links li:hover .fa-facebook{
+	background-color: rgba(101, 142, 255, 0.3);
+}
+
+/* youtube */
+.banner .social-links li:hover .yt{
+	background-color: rgba(255, 101, 101, 0.5);
+}
+  
+.banner .social-links li:hover .fa-youtube {
+	background-color: rgba(255, 101, 101, 0.3);
+}
+
+/* instagram */
+.banner .social-links li:hover .ig{
+	background-color: rgba(185, 90, 240, 0.5);
+}
+  
+.banner .social-links li:hover .fa-instagram{
+	background-color: rgba(185, 90, 240, 0.3);
+}
+
+
+.banner {
+	background-image: url(../img/banner-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+}
+
+.banner .left-side {
+	text-align: left;
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100%;
+	margin-left: -100vh;
+	padding-left: 100vh;
+}
+
+.banner .page-direction-button {
+	margin-top: 120px;
+}
+
+.banner .logo img {
+	padding-top: 60px;
+	max-width: 100%;
+}
+
+.banner .tabs-content {
+	margin-top: 120px;
+}
+
+.banner .tabs-content h4 {
+	margin-top: 0px;
+	margin-bottom: 40px;
+	font-size: 24px;
+	color: #fff;
+	font-weight: 700;
+}
+
+.banner .submit-form {
+	text-align: left;
+	margin: 155px 0px;
+	background-color: rgba(250, 250, 250, 0.95);
+	padding: 30px;
+}
+
+.submit-form h4 {
+	width: 100%;
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	display: inline-block;
+	border-bottom: 1px solid #dbdada;
+}
+
+.submit-form h4 em {
+	font-style: normal;
+}
+
+.submit-form label {
+	margin-top: 10px;
+	float: left;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #121212;
+}
+
+.submit-form select {
+	margin-bottom: 10px;
+	width: 100%;
+	height: 36px;
+	border: none;
+	background-color: #e7e7e7;
+	font-size: 11px;
+	color: #9a9a9a;
+	outline: none;
+	padding: 0px 10px;
+	display: inline-block;
+}
+
+.submit-form .date {
+	margin-bottom: 10px;
+	width: 100%;
+	height: 36px;
+	border: none;
+	background-color: #e7e7e7;
+	font-size: 11px;
+	color: #9a9a9a;
+	outline: none;
+	padding-left: 15px;
+	margin-left: 0px;
+	display: inline-block;
+	box-shadow: none;
+	border-radius: 0px;
+}
+
+.submit-form input {
+	margin-top: 12px;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.submit-form .radio-select {
+	margin-top: 15px;
+}
+
+.submit-form button {
+	margin-top: 15px;
+	width: 100%;
+	height: 36px;
+	background-color: #ffe165;
+	font-size: 13px;
+	color: #121212;
+	font-weight: 600;
+}
+
+.col-md-6 .btn{
+	background-color: #ffae5d;
+}
+
+.services {
+	margin-top: 100px;
+	padding-bottom: 100px;
+}
+
+.services p {
+	line-height: px;
+}
+
+.services .service-item {
+	background-color: #1f3646;
+	color: #fff;
+	padding: 60px 30px 20px 30px;
+	text-align: center;
+	transition: all 0.5s;
+}
+
+.service-item h4 {
+	font-size: 17px;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 0.5px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.service-item .service-icon {
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+	text-align: center;
+}
+
+.first-service .service-icon {
+	padding: 50px;
+	background-image: url(../img/pen-map-white.svg);
+	background-size: 85%;
+	background-position: center;
+	transition: all 0.5s;
+}
+
+.second-service .service-icon {
+	padding: 50px;
+	background-image: url(../img/shield-white.svg);
+	background-size: 85%;
+	background-position: center;
+	transition: all 0.5s;
+}
+
+.third-service .service-icon {
+	padding: 50px;
+	background-image: url(../img/compass-white.svg);
+	background-size: 65%;
+	background-position: center;
+	transition: all 0.5s;
+}
+
+.service-item:hover {
+	color: #121212;
+	background-color: #ffe165;
+}
+
+.first-service:hover .service-icon {
+	background-image: url(../img/pen-map-black.svg);
+}
+
+.second-service:hover .service-icon {
+	background-image: url(../img/shield-black.svg);
+}
+
+
+.third-service:hover .service-icon {
+	background-image: url(../img/compass-black.svg);
+}
+
+
+
+@media (max-width: 991px) {
+
+	.banner .left-side {
+		text-align: center;
+		overflow: hidden;
+		padding-left: 0vh;
+		margin-left: -50vh;
+		margin-right: -50vh;
+		padding-right: 50vh;
+		padding-left: 50vh;
+
+	}
+
+	.banner .social-links {
+	  list-style: none;
+	  margin-top: 0px;
+	  padding-right: 15px;
+	  padding-left: 15px;	
+	}
+
+	.banner .page-direction-button {
+		margin-top: 50px;
+	}
+
+	.banner .logo img {
+		padding-top: 40px;
+		max-width: 100%;
+	}
+
+	.banner .tabs-content {
+		margin-top: 60px;
+	}
+
+	.banner .submit-form {
+		margin: 30px 30px;
+	}
+}
